@@ -1,0 +1,11 @@
+import { M as escape_html } from './context-C66aeybg.js';
+import { p as page } from './index2-C_6Nl6kI.js';
+
+function Error($$renderer, $$props) {
+  $$renderer.component(($$renderer2) => {
+    $$renderer2.push(`<h1>${escape_html(page.status)}</h1> <p>${escape_html(page.error?.message)}</p>`);
+  });
+}
+
+export { Error as default };
+//# sourceMappingURL=error.svelte-CHJ6FzrJ.js.map
