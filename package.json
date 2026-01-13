@@ -21,6 +21,6 @@
     "svelte-check": "^4.3.4",
     "typescript": "^5.9.3",
     "vite": "^7.2.2",
-    "better-auth": "1.4.3"
+    "better-auth": "1.4.4"
   }
 }

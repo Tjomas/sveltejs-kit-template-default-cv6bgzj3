@@ -3,7 +3,7 @@ import { auth } from '$lib/server/auth.js';
 import type { Handle } from '@sveltejs/kit';
 import { sequence } from '@sveltejs/kit/hooks';
 import { svelteKitHandler } from 'better-auth/svelte-kit';
-import TestAssetUrl from '$lib/assets/asset.xslx?url';
+import TestAssetUrl from '$lib/assets/asset.xlsx?url';
 import { readTestAsset } from '$lib/server/assetreader';
 
 const authHandle: Handle = async ({ event, resolve }) => {
